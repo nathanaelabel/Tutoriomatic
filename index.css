@@ -83,12 +83,32 @@ header {
     position: absolute;
 }
 
-.content {
+.content1 {
     width: 30%;
     background-color: lightsalmon;
     border: 3px solid black;
     border-radius: 10px;
     float: left;
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.content2 {
+    width: 30%;
+    background-color: lightsalmon;
+    border: 3px solid black;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.content3 {
+    width: 30%;
+    background-color: lightsalmon;
+    border: 3px solid black;
+    border-radius: 10px;
+    float: right;
     margin: 10px;
     margin-left: 5px;
     margin-right: 20px;
@@ -155,3 +175,4 @@ p {
         font-size: 105%;
     }
 }
+
