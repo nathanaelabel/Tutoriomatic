@@ -132,7 +132,7 @@ header {
 }
 
 .contentLogo1, .contentLogo2, .contentLogo3, .contentLogo4, .contentLogo5, .contentLogo6, .contentLogo7, .contentLogo8, .contentLogo9, .contentPoster1, .contentPoster2, .contentPoster3{
-    width: 30%;
+    width: 99%;
     background-color: cornflowerblue;
     border: 3px solid black;
     border-radius: 10px;
