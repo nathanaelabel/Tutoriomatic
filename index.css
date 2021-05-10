@@ -2,12 +2,19 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: aliceblue;
+    margin: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
     color: black;
 }
 
 .dark-mode {
     background-color: #202020;
-    color: white;
 }
 
 button {
@@ -15,7 +22,8 @@ button {
     border: none;
     float: right;
     margin-right: 1%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 span {
@@ -52,10 +60,12 @@ h2 {
     font-family: 'Bitter', serif;
 }
 
-h1{
+h1 {
     position: relative;
-    float: left;
-    margin: 10% 0% 10% 22%;
+    text-align: left;
+    margin: 10% 0% 10% 20%;
+    bottom: 90px;
+    font-size: 70pt;
 }
 
 .container {
@@ -78,21 +88,21 @@ header {
 
 .logo {
     padding: 20px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     float: left;
-    text-align: center;
     margin-top: 10px;
     margin-left: 10px;
     position: relative;
 }
 
-.intro{
-    width: 100%;
-    background-color: cornflowerblue;
+.intro {
+    width: 90%;
+    background-color: aqua;
     float: left;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 0.2%;
+    margin-left: 5%;
 }
 
 .content1 {
@@ -102,7 +112,7 @@ header {
     border-radius: 10px;
     float: left;
     margin: 10px;
-    margin-left: 0.1%;
+    margin-left: 0.5%;
     margin-right: 0.5%;
 }
 
@@ -128,15 +138,25 @@ header {
     margin-right: 0.5%;
 }
 
-.contentLogo1, .contentLogo2, .contentLogo3, .contentLogo4, .contentLogo5, .contentLogo6, .contentLogo7, .contentLogo8, .contentLogo9, .contentPoster1, .contentPoster2, .contentPoster3{
-    width: 99%;
+.contentLogo1,
+.contentLogo2,
+.contentLogo3,
+.contentLogo4,
+.contentLogo5,
+.contentLogo6,
+.contentLogo7,
+.contentLogo8,
+.contentLogo9,
+.contentPoster1,
+.contentPoster2,
+.contentPoster3 {
+    width: 50%;
     background-color: cornflowerblue;
     border: 3px solid black;
     border-radius: 10px;
     float: left;
     margin: 10px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 25%;
 }
 
 img {
@@ -149,7 +169,7 @@ img {
 
 p {
     padding: 10px;
-    color: white;
+    color: black;
     font-size: 14sp;
     text-align: left;
 }
@@ -161,9 +181,9 @@ p {
 .bawah {
     background-color: lightblue;
     width: 100%;
-    height: 30px;
-    border-radius: 10px;
-    padding: 5px;
+    height: 50px;
+    padding: 45px;
+    padding-top: 25px;
 }
 
 @media screen and (max-width: 768px) {
