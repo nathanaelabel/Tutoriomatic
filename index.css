@@ -1,3 +1,4 @@
+/* DESKTOP VIEW */
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -138,7 +139,7 @@ header {
     margin-top: 0%;
     position: relative;
     top: 20px;
-}   
+}
 
 .contact {
     text-align: left;
@@ -146,37 +147,13 @@ header {
     margin-bottom: 0.1%;
 }
 
-.content1 {
+.people {
     width: 30%;
     background-color: cornflowerblue;
     border: 5px solid royalblue;
+    display: inline-block;
     border-radius: 10px;
-    float: left;
     margin: 10px;
-    margin-left: 2%;
-    margin-right: 0.5%;
-}
-
-.content2 {
-    width: 30%;
-    background-color: cornflowerblue;
-    border: 5px solid royalblue;
-    border-radius: 10px;
-    float: left;
-    margin: 10px;
-    margin-left: 2.5%;
-    margin-right: 1.5%;
-}
-
-.content3 {
-    width: 30%;
-    background-color: cornflowerblue;
-    border: 5px solid royalblue;
-    border-radius: 10px;
-    float: right;
-    margin: 10px;
-    margin-left: 0.5%;
-    margin-right: 2%;
 }
 
 .contentLogo1,
@@ -219,7 +196,7 @@ img {
 
 p {
     padding: 10px;
-    font-size: 14sp;
+    font-size: 14px;
     text-align: left;
 }
 
@@ -250,24 +227,22 @@ p {
     z-index: 99;
 }
 
+/* MOBILE VIEW */
 @media screen and (max-width: 768px) {
-    * {
-        scroll-behavior: smooth;
-        box-sizing: border-box;
-        color: black;
-    }
     h1 {
         position: relative;
         text-align: left;
-        margin: 10% 0% 10% 20%;
+        margin: 10% 0% 0% 20%;
         bottom: 100px;
         left: 30px;
         font-size: 27pt;
     }
+
     h2 {
         font-family: 'Bitter', serif;
         margin-top: 50px;
     }
+
     .logo {
         padding: 20px;
         width: 120px;
@@ -275,13 +250,12 @@ p {
         float: left;
         margin: 0% 5% 10% 1%;
         position: relative;
-        top: 20px;
+        top: 5px;
     }
 
     .headArea {
         width: 100%;
         height: 130px;
-        float: left;
         background-color: lightblue;
     }
 
@@ -294,81 +268,40 @@ p {
         width: 75%;
         background-color: deepskyblue;
         border-radius: 10px;
-        margin: 10% 13% 2% 13%;
+        margin: 10% 13% 5% 13%;
         padding: 0px 15px 0px 15px;
     }
 
-    body {
-        background: aliceblue;
-        max-width: 100%;
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
     .icon {
-        max-width: 40px;
-        max-height: 60px;
-        margin-top: 0%;
+        max-width: 45px;
+        max-height: 65px;
         padding-left: 2%;
-        padding-bottom: 10px;
-        position: relative;
-        bottom: 20px;
-        
+        bottom: 5%;
+        top: 5%;
     }
-    
+
     .contact {
         text-align: left;
-        padding-left: 5%;
-        padding-top: 5px;
-        float: right;
         margin-bottom: 0.1%;
-        position: relative;
         top: 1%;
         bottom: 1%;
-        right: 2%;
+        left: 5%;
     }
+
     .container {
         width: 100%;
         margin: 0;
     }
 
-    .content1 {
-        width: 90%;
+    .people {
+        width: 75%;
         background-color: cornflowerblue;
+        border: 5px solid royalblue;
+        display: flexbox;
+        align-items: center;
         border-radius: 10px;
-        float: left;
-        margin: 0px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
-
-    .content2 {
-        width: 90%;
-        background-color: cornflowerblue;
-        border-radius: 10px;
-        float: left;
-        margin: 0px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
-
-    .content3 {
-        width: 90%;
-        background-color: cornflowerblue;
-        border-radius: 10px;
-        float: left;
-        margin: 0px;
-        margin-bottom: 10px;
-    }
-    .content3, .contact{
-        text-align: left;
-        padding-left: 5%;
-        float:left;
-        margin-bottom: 0.1%;
-        position: relative;
-        top: 1%;
-        bottom: 1%;
-        left: 5%;
+        margin: 10px;
+        padding: 0px 10px 25px 10px;
     }
 
     .contentLogo1,
@@ -387,14 +320,19 @@ p {
         background-color: cornflowerblue;
         border: 5px solid royalblue;
         border-radius: 10px;
-        margin: 2% 13% 1% 13%;
+        margin: 5% 13% 0% 13%;
     }
+
     .author {
-        border-radius: 100px;
-        border: solid 2.5px;
+        border: none;
         position: relative;
-        left: 20px;
     }
+
+    .author:hover {
+        border: none;
+        box-shadow: none;
+    }
+
     img {
         max-width: 50%;
         height: auto;
@@ -404,9 +342,13 @@ p {
         padding: 10px;
     }
 
-    footer {
-        padding: 5px;
-        text-align: center;
+    .bawah {
+        background-color: lightblue;
+        width: 100%;
+        height: 50px;
+        padding: 45px;
+        padding-top: 25px;
+        margin-top: 5%;
     }
 
     p {
