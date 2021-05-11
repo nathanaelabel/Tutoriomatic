@@ -93,8 +93,10 @@ h1 {
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     margin: 0;
+    margin: auto;
+    padding: 5px;
 }
 
 .headArea {
@@ -143,6 +145,7 @@ header {
 
 .contact {
     text-align: left;
+    font-size: 18px;
     padding: 2%;
     margin-bottom: 0.1%;
 }
@@ -289,8 +292,10 @@ p {
     }
 
     .container {
-        width: 100%;
+        width: 90%;
         margin: 0;
+        margin: auto;
+        padding: 5px;
     }
 
     .people {
