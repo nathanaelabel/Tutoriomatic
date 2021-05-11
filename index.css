@@ -93,7 +93,7 @@ h1 {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0;
     margin: auto;
     padding: 5px;
@@ -151,12 +151,12 @@ header {
 }
 
 .people {
-    width: 30%;
+    width: 31%;
     background-color: cornflowerblue;
     border: 5px solid royalblue;
     display: inline-block;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 5px 10px 5px;
 }
 
 .contentLogo1,
@@ -268,11 +268,11 @@ p {
     }
 
     .intro {
-        width: 75%;
+        width: 90%;
         background-color: deepskyblue;
         border-radius: 10px;
-        margin: 10% 13% 5% 13%;
-        padding: 0px 15px 0px 15px;
+        margin: 10px 10px 10px 20px;
+        padding: 0px 10px 25px 10px;
     }
 
     .icon {
@@ -299,7 +299,7 @@ p {
     }
 
     .people {
-        width: 75%;
+        width: 90%;
         background-color: cornflowerblue;
         border: 5px solid royalblue;
         display: flexbox;
@@ -321,11 +321,14 @@ p {
     .contentPoster1,
     .contentPoster2,
     .contentPoster3 {
-        width: 75%;
+        width: 90%;
         background-color: cornflowerblue;
         border: 5px solid royalblue;
+        display: flexbox;
+        align-items: center;
         border-radius: 10px;
-        margin: 5% 13% 0% 13%;
+        margin: 10px 10px 10px 20px;
+        padding: 0px 10px 25px 10px;
     }
 
     .author {
