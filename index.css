@@ -236,9 +236,9 @@ p {
         position: relative;
         text-align: left;
         margin: 10% 0% 0% 20%;
-        bottom: 100px;
-        left: 30px;
-        font-size: 27pt;
+        bottom: 105px;
+        left: 25px;
+        font-size: 25pt;
     }
 
     h2 {
@@ -247,19 +247,20 @@ p {
     }
 
     .logo {
-        padding: 20px;
-        width: 120px;
-        height: 120px;
+        padding: 10px 10px 20px 15px;
+        width: 100px;
+        height: 100px;
         float: left;
-        margin: 0% 5% 10% 1%;
+        margin: 0% 5% 10% 0%;
         position: relative;
         top: 5px;
     }
 
     .headArea {
         width: 100%;
-        height: 130px;
+        height: 100px;
         background-color: lightblue;
+        margin-bottom: 5%;
     }
 
     header {
@@ -271,7 +272,7 @@ p {
         width: 90%;
         background-color: deepskyblue;
         border-radius: 10px;
-        margin: 10px 10px 10px 20px;
+        margin: 30px 10px 10px 20px;
         padding: 0px 10px 25px 10px;
     }
 
@@ -279,15 +280,18 @@ p {
         max-width: 45px;
         max-height: 65px;
         padding-left: 2%;
-        bottom: 5%;
-        top: 5%;
+        bottom: 1%;
+        top: 1%;
+        float: left;
+        display: none;
     }
 
     .contact {
         text-align: left;
+        float: left;
         margin-bottom: 0.1%;
         top: 1%;
-        bottom: 1%;
+        padding-bottom: 0.1%;
         left: 5%;
     }
 
@@ -299,13 +303,12 @@ p {
     }
 
     .people {
-        width: 90%;
+        width: 100%;
         background-color: cornflowerblue;
         border: 5px solid royalblue;
         display: flexbox;
-        align-items: center;
         border-radius: 10px;
-        margin: 10px;
+        margin: 10px 10px 10px 0px;
         padding: 0px 10px 25px 10px;
     }
 
@@ -354,12 +357,11 @@ p {
         background-color: lightblue;
         width: 100%;
         height: 50px;
-        padding: 45px;
-        padding-top: 25px;
-        margin-top: 5%;
+        padding: 20px 50px 40px 50px;
+        margin: 5% 0% 0% 0.5%;
     }
 
     p {
-        font-size: 105%;
+        font-size: 16px;
     }
 }
