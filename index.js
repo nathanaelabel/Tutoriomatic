@@ -1,4 +1,4 @@
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+function theme() {
+    var bgcolor = document.body;
+    bgcolor.classList.toggle("dark_mode");
 }
